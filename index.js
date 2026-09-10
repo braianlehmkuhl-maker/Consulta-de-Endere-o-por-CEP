@@ -18,3 +18,24 @@ form.addEventListener("submit", (event) => {
  const parametros = new URLSearchParams({ cep, cidade });
  window.location.href = `resultado.html?${parametros}`;
 });
+
+
+
+
+
+
+if ("serviceWorker" in navigator) {
+
+    window.addEventListener("load", function() {
+
+        navigator.serviceWorker.register("./sw.js")
+            .then(function() {
+                console.log("Service Worker registrado!");
+            })
+            .catch(function(erro) {
+                console.log("Erro ao registrar Service Worker:", erro);
+            });
+
+    });
+
+}
