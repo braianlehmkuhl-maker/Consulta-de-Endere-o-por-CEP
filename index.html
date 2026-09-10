@@ -9,13 +9,21 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="index.js">
 
-<body>
-    <form id="formConsulta">
+<body class="body">
+    <center><h1>Consultar Endereço</h1></center>
+    <center><p>Digite os dados para consultar</p></center>
+    <form id="formConsulta" class="consulta">
+        <center>
+            <br>
         <label for="cep">CEP</label>
         <input id="cep" type="text" inputmode="numeric" maxlength="9" placeholder="01001-000" required>
+        <br>
         <label for="cidade">Cidade</label>
         <input id="cidade" type="text" placeholder="São Paulo" required>
+        <br>
         <button type="submit">Consultar Endereço</button>
+        <br>
+    </center>
     </form>
     <p id="mensagem" role="status" aria-live="polite"></p>
     <script src="index.js"></script>

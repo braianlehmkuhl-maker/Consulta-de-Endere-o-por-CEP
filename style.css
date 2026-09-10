@@ -1,0 +1,119 @@
+.consulta{
+    background-color: white;
+    width: 500px;
+    border-radius: 20px;
+    color: #242a0f;
+    margin-top: 10px;
+    margin: auto;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.10);
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f3ff;
+    margin: 0;
+    padding: 0;
+    color: #1F2937;
+}
+
+
+header {
+    background-color: #FFFFFF;
+    width: 500px;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.10);
+    text-align: center;
+}
+
+
+h1{
+    color: #5B21B6;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+p{
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+label{
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1px solid #D1D5DB;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+input:focus {
+    outline: none;
+    border: 5px solid #7c3aed;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #A78BFA;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+input{
+    background-color: #A78BFA;
+}
+
+
+button:hover {
+    background-color: #5B21B6;
+}   
+
+
+
+
+.linkmaps{
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 12px 20px;
+    background-color: #7C3AED;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+
+.linkmaps:hover {
+    background-color: #5B21B6;
+}
+
+body > p {
+    text-align: center;
+}
+
+
+body > p a {
+    color: #5B21B6;
+}
+
+
+::placeholder{
+    color: rgb(255, 227, 135);
+}
